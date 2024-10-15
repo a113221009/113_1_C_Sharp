@@ -27,7 +27,7 @@ namespace WindowsFormsApp2
             liters = double.Parse(txbLiter.Text);
             //average = kms / liters;
 
-            lblShow.Text = (kms / liters).ToString();
+            lblShow.Text = (kms / liters).ToString(n3);
         }
 
         private void btnExit_Click(object sender, EventArgs e)
