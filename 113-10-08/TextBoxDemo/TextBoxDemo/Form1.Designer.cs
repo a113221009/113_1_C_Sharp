@@ -33,15 +33,16 @@
             lblFullName = new Label();
             txbFirstName = new TextBox();
             txbLastName = new TextBox();
-            txbFullName = new TextBox();
             btnConfirm = new Button();
+            lblShow = new Label();
+            btnExit = new Button();
             SuspendLayout();
             // 
             // lblFirstName
             // 
             lblFirstName.AutoSize = true;
             lblFirstName.Font = new Font("Segoe UI", 18F);
-            lblFirstName.Location = new Point(127, 87);
+            lblFirstName.Location = new Point(140, 53);
             lblFirstName.Name = "lblFirstName";
             lblFirstName.Size = new Size(134, 32);
             lblFirstName.TabIndex = 0;
@@ -51,7 +52,7 @@
             // 
             lblLastName.AutoSize = true;
             lblLastName.Font = new Font("Segoe UI", 18F);
-            lblLastName.Location = new Point(127, 183);
+            lblLastName.Location = new Point(140, 149);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(131, 32);
             lblLastName.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             lblFullName.AutoSize = true;
             lblFullName.Font = new Font("Segoe UI", 18F);
-            lblFullName.Location = new Point(127, 280);
+            lblFullName.Location = new Point(140, 246);
             lblFullName.Name = "lblFullName";
             lblFullName.Size = new Size(128, 32);
             lblFullName.TabIndex = 2;
@@ -70,7 +71,7 @@
             // txbFirstName
             // 
             txbFirstName.Font = new Font("Segoe UI", 18F);
-            txbFirstName.Location = new Point(281, 87);
+            txbFirstName.Location = new Point(294, 53);
             txbFirstName.Name = "txbFirstName";
             txbFirstName.Size = new Size(241, 39);
             txbFirstName.TabIndex = 3;
@@ -78,36 +79,52 @@
             // txbLastName
             // 
             txbLastName.Font = new Font("Segoe UI", 18F);
-            txbLastName.Location = new Point(280, 183);
+            txbLastName.Location = new Point(293, 149);
             txbLastName.Name = "txbLastName";
             txbLastName.Size = new Size(241, 39);
             txbLastName.TabIndex = 4;
             // 
-            // txbFullName
-            // 
-            txbFullName.Font = new Font("Segoe UI", 18F);
-            txbFullName.Location = new Point(281, 277);
-            txbFullName.Name = "txbFullName";
-            txbFullName.Size = new Size(241, 39);
-            txbFullName.TabIndex = 5;
-            // 
             // btnConfirm
             // 
             btnConfirm.Font = new Font("Segoe UI", 18F);
-            btnConfirm.Location = new Point(293, 348);
+            btnConfirm.Location = new Point(206, 334);
             btnConfirm.Name = "btnConfirm";
             btnConfirm.Size = new Size(142, 50);
             btnConfirm.TabIndex = 6;
             btnConfirm.Text = "Confirm";
             btnConfirm.UseVisualStyleBackColor = true;
+            btnConfirm.Click += btnConfirm_Click;
+            // 
+            // lblShow
+            // 
+            lblShow.BackColor = SystemColors.ControlLight;
+            lblShow.BorderStyle = BorderStyle.Fixed3D;
+            lblShow.Font = new Font("Microsoft JhengHei UI", 20F);
+            lblShow.Location = new Point(294, 246);
+            lblShow.Name = "lblShow";
+            lblShow.Size = new Size(241, 40);
+            lblShow.TabIndex = 7;
+            lblShow.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnExit
+            // 
+            btnExit.Font = new Font("Segoe UI", 18F);
+            btnExit.Location = new Point(444, 334);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(142, 50);
+            btnExit.TabIndex = 8;
+            btnExit.Text = "Exit";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnExit);
+            Controls.Add(lblShow);
             Controls.Add(btnConfirm);
-            Controls.Add(txbFullName);
             Controls.Add(txbLastName);
             Controls.Add(txbFirstName);
             Controls.Add(lblFullName);
@@ -126,7 +143,8 @@
         private Label lblFullName;
         private TextBox txbFirstName;
         private TextBox txbLastName;
-        private TextBox txbFullName;
         private Button btnConfirm;
+        private Label lblShow;
+        private Button btnExit;
     }
 }

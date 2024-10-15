@@ -6,5 +6,23 @@ namespace TextBoxDemo
         {
             InitializeComponent();
         }
+
+        private void btnConfirm_Click(object sender, EventArgs e)
+        {
+            string fullName;  //變數一定要先宣告型態後，才可以使用
+            string firstName;
+            string lastName;
+
+            firstName = txbFirstName.Text;
+            lastName = txbLastName.Text;
+            fullName = lastName + " " + firstName;
+
+            lblShow.Text = fullName;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
