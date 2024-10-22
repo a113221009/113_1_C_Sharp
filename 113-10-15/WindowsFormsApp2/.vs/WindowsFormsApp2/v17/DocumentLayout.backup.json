@@ -18,20 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
-              "ToolTip": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs [\u8A2D\u8A08]*",
-              "RelativeToolTip": "WindowsFormsApp2\\Form1.cs [\u8A2D\u8A08]*",
+              "ToolTip": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "WindowsFormsApp2\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:39:16.541Z",
               "EditorCaption": " [\u8A2D\u8A08]"
@@ -42,9 +38,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp2\\Form1.cs",
-              "ToolTip": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs*",
-              "RelativeToolTip": "WindowsFormsApp2\\Form1.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB0AAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\shu\\Desktop\\113_1_C_Sharp\\113-10-15\\WindowsFormsApp2\\WindowsFormsApp2\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp2\\Form1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T09:45:50.839Z",
               "EditorCaption": ""
