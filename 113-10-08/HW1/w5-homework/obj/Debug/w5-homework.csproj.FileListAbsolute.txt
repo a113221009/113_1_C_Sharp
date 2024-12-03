@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\bin\Debug\w5-homework.exe.config
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\bin\Debug\w5-homework.exe
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\bin\Debug\w5-homework.pdb
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5-homework.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5_homework.Form1.resources
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5_homework.Properties.Resources.resources
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5-homework.csproj.GenerateResource.cache
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5-homework.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5-homework.exe
+C:\Users\User\Desktop\113_1_C_Sharp\113-10-08\w5-homework\w5-homework\obj\Debug\w5-homework.pdb
