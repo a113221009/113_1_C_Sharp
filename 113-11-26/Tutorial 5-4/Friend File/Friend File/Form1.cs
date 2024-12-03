@@ -24,7 +24,8 @@ namespace Friend_File
             try
             {
                 StreamWriter outputfile;  //StreamWriter物件
-                outputfile = File.AppendText(@"C:\\Users\\shu\\Desktop\friends.txt"); //開啟檔案
+                outputfile = File.AppendText(@"C:\\Users\\shu\\Desktop\friends.txt"); //開啟檔案(決定路徑)
+                outputfile = File.AppendText(@"..\..\..\data\friends.txt");   //開啟檔案(相對路徑)
                 outputfile.WriteLine(nameTextBox.Text); //寫入名字
                 outputfile.Close();   //關閉檔案
                 MessageBox.Show("名字已經寫入檔案。");  //顯示訊息
